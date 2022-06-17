@@ -6,4 +6,8 @@
   margin-bottom: 100px;
 }
 
+nav a.active {
+  color: #000 !important;
+}
+
 /*# sourceMappingURL=globals.css.map */
