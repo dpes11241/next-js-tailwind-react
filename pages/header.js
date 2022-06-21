@@ -7,6 +7,7 @@ import Image from 'next/image'
 var productsPage_link = '/product';
 var loginPage_link = '/login';
 var teamPage_link = '/team';
+var apiPage = '/api-json';
 
 
 const header = () => {
@@ -78,6 +79,8 @@ const header = () => {
                   </Link> */}
 
                 <NavLink href={teamPage_link} className="font-medium text-gray-500 hover:text-gray-900">Team</NavLink>
+
+                <NavLink href={apiPage} className="font-medium text-gray-500 hover:text-gray-900">API json</NavLink>
 
                 </div>
               </nav>

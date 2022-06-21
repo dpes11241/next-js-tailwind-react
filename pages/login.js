@@ -7,7 +7,6 @@ import Footer from './footer'
 export default function Home() {
   return (
     <div className={styles.container}>
-      <Header/>
       <>
       {/*
         This example requires updating your template:
@@ -102,7 +101,6 @@ export default function Home() {
       </div>
       <div className='spacer'></div>
     </>
-      <Footer/>
     </div>
   )
 }
