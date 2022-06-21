@@ -1,4 +1,4 @@
-import {useRouter} from "next/router"
+// import {useRouter} from "next/router"
 import Link from 'next/link';
 
 const products = [
@@ -38,12 +38,12 @@ const products = [
   ]
 
 function productDetail() {
-    const router = useRouter()
-    var productId = parseInt(router.query.productId)
+    // const router = useRouter()
+    // var productId = parseInt(router.query.productId)
     // const singleProduct = products[productId]
     return(
         <>
-            <h1>Details on product {productId}</h1>
+            {/* <h1>Details on product {productId}</h1> */}
 
             {/* <h2> -------  {productId + products[0].name}</h2> */}
             {/* <h3 className="mt-4 text-sm text-gray-700">{products + [productId]+.name}</h3> */}
