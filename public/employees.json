@@ -1,0 +1,18 @@
+[
+    {
+      id: 1,
+      name: 'Dipesh',
+    },
+    {
+      id: 2,
+      name: 'Sushma',
+    },
+    {
+      id: 3,
+      name: 'Ram',
+    },
+    {
+      id: 4,
+      name: 'Laxman',
+    },
+  ]
