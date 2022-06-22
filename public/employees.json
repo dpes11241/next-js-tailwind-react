@@ -1,18 +1,14 @@
-[
-    {
-      id: 1,
-      name: 'Dipesh',
-    },
-    {
-      id: 2,
-      name: 'Sushma',
-    },
-    {
-      id: 3,
-      name: 'Ram',
-    },
-    {
-      id: 4,
-      name: 'Laxman',
-    },
-  ]
+{
+   "firstName": "Joe",
+   "lastName": "Jackson",
+   "gender": "male",
+   "age": 28,
+   "address": {
+       "streetAddress": "101",
+       "city": "San Diego",
+       "state": "CA"
+   },
+   "phoneNumbers": [
+       { "type": "home", "number": "7349282382" }
+   ]
+}
